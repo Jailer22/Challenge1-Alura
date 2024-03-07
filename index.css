@@ -1,0 +1,185 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo-logo img {
+  position: absolute;
+  right: 85%;
+  width: 70px;
+  margin-top: -40px;
+  opacity: 0.4;
+}
+
+.titulo-principal {
+  font-size: 40px;
+  color: #fafafa;
+  opacity: 0.8;
+  margin-top: -20px;
+}
+
+.texto-escrito {
+  width: 60vh;
+  height: 70vh;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px 2px rgb(129, 118, 118);
+  background: #064c85;
+}
+
+.texto-label {
+  padding: 30px;
+  color: #fafafa;
+}
+
+input {
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+  border: none;
+  box-shadow: 0px 0px 1px 1px rgb(129, 118, 118);
+}
+
+.imagenes-encriptadas {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.botones {
+  display: flex;
+  width: 100%;
+}
+
+.boton-encriptar {
+  width: 70%;
+  padding: 10px;
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+  font-size: 1em;
+  color: white;
+  border: none;
+  background: #299cb7;
+  border-radius: 5px;
+}
+
+.resultado-encriptado {
+  width: 50% !important;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fafafa;
+}
+
+#resultado {
+  margin: 0 auto;
+  padding: 20px;
+  color: #fafafa;
+}
+
+@media screen and (max-width: 760px) {
+
+  .titulo-logo img {
+    width: 60px;
+    left: 10%;
+  }
+
+  .titulo-principal {
+    font-size: 40px;
+  }
+
+  .texto-escrito {
+    width: 90%;
+    height: 100%;
+    top: 57%;
+  }
+
+  .texto-label {
+    font-size: 13px;
+    padding: 20px;
+  }
+
+  input {
+    width: 85%;
+  }
+
+  .imagenes-encriptadas {
+    width: 200px;
+    height: 200px;
+  }
+
+  .botones {
+    display: flex;
+    width: 95%;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .titulo-principal {
+    font-size: 35px;
+  }
+
+  .texto-escrito {
+    width: 90%;
+    height: 100%;
+    top: 57%;
+  }
+
+  .texto-label {
+    font-size: 13px;
+    padding: 20px;
+  }
+
+  input {
+    width: 82%;
+  }
+
+  .imagenes-encriptadas {
+    width: 150px;
+    height: 150px;
+  }
+
+  .botones {
+    display: flex;
+    width: 95%;
+  }
+
+  .boton-encriptar {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .resultado-encriptado {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+
+@media screen and (max-width: 375px){
+
+  .titulo-principal {
+    font-size: 30px;
+  }
+  
+  .titulo-logo img {
+    width: 45px;
+    left: 10%;
+    margin-top: -25px;
+  }
+
+
+}
+
+

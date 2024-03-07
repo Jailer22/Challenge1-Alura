@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+   <Main>
+        <div class="texto-escrito">
+            <div class="titulo-logo">
+                <img src="imagenes/logo.png" alt="Logotipo da Alura">
+            </div>
+            <h1 class="titulo-principal">Encriptador Alura</h1>
+            <img class="imagenes-encriptadas" src="Imagenes/undraw_encryption.svg" alt="encryption">
+            <label for="" class="texto-label">Por favor escriba en el recuadro el texto a encriptar:</label>
+            <input type="text" name="Texto" id="inputText">
+            <div class="botones">
+                <button class="boton-encriptar" type="submit" onclick="encriptarTexto()">Encriptar</button>
+                <button class="boton-encriptar" type="submit" onclick="desencriptarTexto()">Desencriptar</button> 
+            </div>
+            <div class="resultado-encriptado">
+                 El texto Encriptado es:
+                    <p id="resultado"></p>
+            </div>
+        </div>        
+   </Main> 
+   <script src="app.js"></script>
+</body>
+</html>
